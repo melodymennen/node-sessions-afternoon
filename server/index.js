@@ -23,5 +23,5 @@ app.post('/api/register', auth_controller.register);
 app.post('/api/signout', auth_controller.signout);
 app.get('/api/user', auth_controller.getUser);
 
-const port = process.env.PORT
+const port = process.env.PORT 
 app.listen(port, () => console.log(`server listening on port ${port}`))
